@@ -9,7 +9,9 @@
     <price currency="INR">79999</price>
     <stock>Available</stock>
     <rating>4.6</rating>
-  </product>
+    <description>Latest iPhone with A17 chip.</description>
+</product>
+
 
   <product id="P102">
     <name>Samsung 55" 4K TV</name>
