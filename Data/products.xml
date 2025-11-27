@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "products.dtd">
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="products.xsd">
+
+  <product id="P101">
+    <name>Apple iPhone 15</name>
+    <category>Mobile</category>
+    <price currency="INR">79999</price>
+    <stock>Available</stock>
+    <rating>4.6</rating>
+  </product>
+
+  <product id="P102">
+    <name>Samsung 55" 4K TV</name>
+    <category>Television</category>
+    <price currency="INR">59999</price>
+    <stock>Out of Stock</stock>
+    <rating>4.3</rating>
+  </product>
+
+</catalog>
