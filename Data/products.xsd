@@ -8,7 +8,22 @@
           <xsd:complexType>
             <xsd:sequence>
               <xsd:element name="name" type="xsd:string"/>
-              <xsd:element name="category" type="xsd:string"/>
+              <xsd:element name="category">
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="Mobile"/>
+                    <xsd:enumeration value="Television"/>
+                    <xsd:enumeration value="Laptop"/>
+                    <xsd:enumeration value="Gaming Laptop"/>
+                    <xsd:enumeration value="Headphones"/>
+                    <xsd:enumeration value="Earbuds"/>
+                    <xsd:enumeration value="Camera"/>
+                    <xsd:enumeration value="Printer"/>
+                    <xsd:enumeration value="Accessories"/>
+                    <xsd:enumeration value="Mobile Accessories"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
               <xsd:element name="price">
                 <xsd:complexType>
                   <xsd:simpleContent>
@@ -20,6 +35,7 @@
               </xsd:element>
               <xsd:element name="stock" type="xsd:string"/>
               <xsd:element name="rating" type="xsd:float"/>
+              <xsd:element name="description" type="xsd:string"/>
             </xsd:sequence>
             <xsd:attribute name="id" type="xsd:ID" use="required"/>
           </xsd:complexType>

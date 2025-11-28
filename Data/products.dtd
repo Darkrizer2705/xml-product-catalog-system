@@ -1,5 +1,5 @@
 <!ELEMENT catalog (product+)>
-<!ELEMENT product (name, category, price, stock, rating)>
+<!ELEMENT product (name, category, price, stock, rating, description)>
 <!ATTLIST product id ID #REQUIRED>
 
 <!ELEMENT name (#PCDATA)>
@@ -10,3 +10,4 @@
 
 <!ELEMENT stock (#PCDATA)>
 <!ELEMENT rating (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
